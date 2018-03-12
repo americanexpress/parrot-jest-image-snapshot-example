@@ -1,0 +1,43 @@
+{
+  "name": "is-it-hot-in-phx",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "start:parrot": "concurrently --kill-others 'npm run start -- --env.mock' 'parrot-server --port 3001 --scenarios ./parrot.scenarios.js'",
+    "test:unit": "jest --testPathIgnorePatterns browser",
+    "test:browser": "jest browser --preset jest-puppeteer-preset",
+    "test": "npm run test:unit && npm run test:browser"
+  },
+  "keywords": [
+    "parrot",
+    "jest-image-snapshot"
+  ],
+  "author": "Andres Escobar <andres.escobar@aexp.com> (https://github.com/anescobar1991)",
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "jest": "^22.0.0",
+    "jest-fetch-mock": "^1.4.2",
+    "jest-image-snapshot": "^2.3.0",
+    "jest-puppeteer-preset": "^2.0.1",
+    "node-fetch": "^2.1.1",
+    "parrot-server": "^3.1.0",
+    "puppeteer": "1.1.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

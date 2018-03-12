@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a friendly message when there is an error fetching weather API 1`] = `
+<App>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(to top, #29323c 0%, #485563 100%)",
+        "color": "white",
+        "display": "grid",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h3>
+        Is it hot in Phoenix right now?
+      </h3>
+      <p>
+        I am not sure...
+      </p>
+    </div>
+  </div>
+</App>
+`;
+
+exports[`renders a friendly message while loading 1`] = `
+<App>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(to top, #29323c 0%, #485563 100%)",
+        "color": "white",
+        "display": "grid",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h3>
+        Is it hot in Phoenix right now?
+      </h3>
+      <p>
+        Let me find out...
+      </p>
+    </div>
+  </div>
+</App>
+`;
+
+exports[`renders a message about how hot it is if temperature is above 90 degrees 1`] = `
+<App>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(to top, #f83600 0%, #f9d423 100%)",
+        "color": "white",
+        "display": "grid",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h3>
+        Is it hot in Phoenix right now?
+      </h3>
+      <p>
+        Yes, it is 101 degrees but it is a dry heat.
+      </p>
+    </div>
+  </div>
+</App>
+`;
+
+exports[`renders a message about how nice it is if temperature is below 90 degrees 1`] = `
+<App>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%)",
+        "color": "white",
+        "display": "grid",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h3>
+        Is it hot in Phoenix right now?
+      </h3>
+      <p>
+        Nope! It is 73 degrees. Perfect snowbird weather.
+      </p>
+    </div>
+  </div>
+</App>
+`;
