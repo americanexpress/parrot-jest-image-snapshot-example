@@ -17,27 +17,28 @@
   "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
-    "babel-core": "^6.23.1",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.23.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "concurrently": "^3.5.1",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.1",
-    "jest": "^22.0.0",
-    "jest-fetch-mock": "^1.4.2",
-    "jest-image-snapshot": "^2.3.0",
-    "jest-puppeteer-preset": "^2.0.1",
-    "node-fetch": "^2.1.1",
+    "@babel/core": "^7.7.7",
+    "@babel/polyfill": "^7.7.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-amex": "^3.3.0",
+    "concurrently": "^5.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
+    "jest": "^25.0.0",
+    "jest-fetch-mock": "^3.0.0",
+    "jest-image-snapshot": "^2.11.1",
+    "jest-puppeteer-preset": "^4.4.0",
+    "node-fetch": "^2.6.0",
     "parrot-server": "^3.1.0",
-    "puppeteer": "1.1.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.4.1"
+    "puppeteer": "^2.0.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

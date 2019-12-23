@@ -1,13 +1,5 @@
 {
   "presets": [
-    ["env", 
-      {
-        "targets": {
-          "browsers": ["last 2 Chrome versions"]
-        }
-      }
-    ],
-      "react",
-      "stage-2"
-    ]
+    "amex"
+  ]
 }
