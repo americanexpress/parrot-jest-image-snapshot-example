@@ -17,7 +17,6 @@
   "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.7.7",
     "@babel/polyfill": "^7.7.0",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
