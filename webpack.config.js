@@ -17,6 +17,7 @@ const webpack = require('webpack');
 module.exports = env => {
   return {
     entry: [
+      '@babel/polyfill',
       './src/index.js'
     ],
     module: {
