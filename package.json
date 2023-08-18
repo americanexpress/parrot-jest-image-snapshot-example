@@ -23,7 +23,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
-    "jest": "^24.9.0",
+    "jest": "^29.6.2",
     "jest-fetch-mock": "^3.0.1",
     "jest-image-snapshot": "^2.11.1",
     "jest-puppeteer-preset": "^4.4.0",
