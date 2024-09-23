@@ -30,7 +30,7 @@
     "node-fetch": "^2.6.7",
     "parrot-server": "^3.1.0",
     "puppeteer": "^2.0.0",
-    "webpack": "^5.92.1",
+    "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
